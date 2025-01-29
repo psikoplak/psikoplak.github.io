@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NGITUNG BMI</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1>Calculator BMI</h1>
+        </header>
+
+        <main>
+            <article>
+                <p>
+                    Halo semuanya, perkenalkan nama saya Mat pembuat web ini, dan Mat akan membantu kalian dengan menghitungkan BMI (Body Mass Index) kalian.
+                </p>
+                    <p1>
+                    Bagi yang belum tahu apa itu BMI, Mat akan berusaha menjelaskan sejelas dan sesederhana mungkin untuk kalian. Dilansir dari siloamhospitals.com, BMI adalah indikator pengukuran yang digunakan untuk menentukan kategori berat badan ideal atau tidak. Jadi bagi kalian yang khawatir atau bertanya-tanya apakah kalian termasuk obesitas atau justru sebaliknya, BMI ini berfungsi untuk mencari tahu hal tersebut dengan rumus yang sudah ditentukan para ahli.
+                    </p1>
+                    <p2>
+                    Nah sekarang karena kalian sudah mengetahui apa itu BMI dan apa kegunaannya, kalian bisa membantu Mat menghitung BMI kalian dengan mengisi pertanyaan dibawah. Mohon diisi dengan angka saja ya!
+                 </p2>
+            </article>
+            <form>
+                <div class="form-group">
+                    <label for="berat">Berat badan (kg):</label>
+                    <input type="number" id="berat" name="berat" required>
+                </div>
+                <div class="form-group">
+                    <label for="tinggi">Tinggi badan (cm):</label>
+                    <input type="number" id="tinggi" name="tinggi" required>
+                </div>
+                <div>
+                    <button type="button"displayDetails(event)" id="hitung">Hitung</button>
+                </div> 
+            </form>
+            <article>
+                <p3> 
+                    Bila kalian sudah mengisi ketiga pertanyaan diatas, kalian bisa click tombol Hitung BMI agar Mat dapat menghitungkan BMI kalian dan menunjukan hasilnya kepada kalian!
+                </p3>
+            </article>
+            
+        </main>
+        <div id="result"></div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

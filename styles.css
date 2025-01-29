@@ -1,0 +1,88 @@
+p1 {
+    display: flow-root;
+    gap: 32px;
+    padding: 38px;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: larger;
+    margin-bottom: auto;
+    margin-top: -35px;
+}
+
+p2 {
+  display: flow-root;
+    gap: 32px;
+    padding: 38px;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: larger;
+    margin-bottom: auto;
+    margin-top: -40px;
+}
+
+p3 {
+  display: flow-root;
+  gap: 32px;
+  padding: 38px;
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: larger;
+  margin-top: -90px;
+}
+
+.main-header{
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
+
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 40px;
+    border-style: solid;
+  }
+
+  form {
+    background-color: gold;
+    text-align: center;
+    display: inline-table;
+    height: 100px;
+    width: 50%;
+    align-items: center;
+    margin-left: 375px;
+    margin-bottom: 70px;
+
+  }
+
+  #result {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 10px;
+
+  }
+
+  body {
+    background-color: teal;
+
+  }
+
+  button {
+    background-color: crimson;
+    height: 60px;
+    width: 25%;
+    font-family: 'Lucida Grande';
+    font-size: large;
+    margin-top: -10px;
+  }
+
+p {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+} 
+  
